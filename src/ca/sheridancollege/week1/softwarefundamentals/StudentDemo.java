@@ -13,6 +13,7 @@ public class StudentDemo
 {
   private String studentID;
   private String name;
+  private String program;
   
   /**
    * A constructor to pass in the given ID and then name
@@ -56,6 +57,16 @@ public class StudentDemo
      */
     public void setName(String givenName) {
         name = givenName;
+    }
+
+    //The getter for program data field
+    public String getProgram() {
+        return program;
+    }
+
+    //The setter for program data field
+    public void setProgram(String program) {
+        this.program = program;
     }
     
 }
